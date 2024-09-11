@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med City</title>
+    <link rel="stylesheet" href="./doctors.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--Flaticons links-->
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+     <!--navigation bar-->
+     <header>
+        <section>
+            <nav>
+                <input type="checkbox" id="sidebar-active">
+                <label for="sidebar-active" class="open-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                </label>
+                <label id="overlay" for="sidebar-active"></label>
+                <section class="links-container">
+                    <label for="sidebar-active" class="close-sidebar-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    </label>
+                <!--logo-->
+                <section class="logo">
+                    <a href="./index.html">
+                    <img src="./main logo.png" alt=""></a>
+                </section>
+                <ul class="ul">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact us.html">Contact us</a></li>
+                    <li><a href="./doctors.html" class="active">Doctors</a></li>
+                    <li><a href="./reservation.html">Consultancy Reservation</a></li>
+                    <li><a href="./about us.html">About us</a></li>
+                    <li><a href="./pharmacy.html">Pharmacy</a></li>
+                </ul>
+
+                <!--search bar-->
+                <div class="search-container">
+                    <form action="/search" method="GET">
+                        <input type="text" placeholder="Search" name="query" class="search-input">
+                        <button type="submit" class="search-btn">Search</button>
+                    </form>
+                </div>
+        </nav>
+        </section>
+    </header>
+
+    <!--main-->
+    <main>
+        <section class="main-container">
+        <div class="main-text">
+        <h1>MEET OUR TEAM</h1>
+        <h2>Empowering you to thrive.</h2>
+        </div>
+        <div class="main-intro">
+            <p>Each diagnosis is a step on the journey, and every treatment is a bridge to a better tomorrow.</p>
+        </div>
+    </main>
+
+<!--Doctor Profile-->
+<section class="profile-container">
+    <div class="profile-image">
+        <img src="./Images./CEO.jpeg" alt="">
+        <span class="role">CEO & Founder</span>
+    </div>
+
+    <div class="profile-details">
+        <h2>Dr. Henry Hartwell</h2>
+        <p>Dr. Henry, the visionary founder and CEO of Med City, bringing over
+            10 years of experience in the healthcare industry. Under his leadership,
+            Med City has grown into a leading medical instituition known for its commitment to
+             innovation, excellence and compassionate care.
+             <div class="social-icons">
+                <i class="fi fi-brands-facebook"></i>
+                <i class="fi fi-brands-instagram"></i>
+                <i class="fi fi-brands-whatsapp"></i>
+             </div>
+        <h3>Dr. Henry Hartwell Experience</h3>
+        <ul class="experience-list">
+            <li>Over 15 years of experience in the health industry</li>
+            <li>Served as a specialist before founding the hospital</li>
+            <li>An understanding of the complexities of healthcare management</li>
+        </ul>
+        </p>
+    </div>
+</section>
+
+<!--board of doctors-->
+
+<!--description of doctors-->
+<div class="board-container">
+    <div class="board-header">
+        <h2>Board of <span class="highlight">Doctors</span></h2>
+        <p>"Experts in health, partners in care"</p>
+    </div>
+</div>
+<section class="container">
+    <div class="card">
+        <div class="doc-images">
+            <img src="./Images./doc 1.jpg" alt="doctor1">
+        </div>
+        <div class="doc-text">
+            <h3>Dr. Jonathan Langston <i>(Cardiologist)</i></h3>
+            <p>Has over two decades of diverse and extensive experience in diagnosing
+                and treating heart and blood vessel-related conditions.
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="doc-images">
+            <img src="./Images./doc 2.jpg" alt="">
+        </div>
+        <div class="doc-text">
+            <h3>Dr. Amelia Foster <i>(Oncologist)</i></h3>
+            <p>Over 10 years of experience in diagnosing cancer. Dr. Amelia has served as a consultant 
+                oncologist and has been involved in ground breaking clinical research.
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="doc-images">
+            <img src="./Images./doc 3.jpg" alt="">
+        </div>
+        <div class="doc-text">
+            <h3>Dr. Isabella Marlowe <i>(Neurologist)</i></h3>
+            <p>A highly respected neurologist with over 20 years of experience. Her areas of expertise include epilepsy, multiple sclerosis, Parkinson's disease, and neurodegenerative disorders.
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="doc-images">
+            <img src="./Images/doc 4.webp" alt="">
+        </div>
+        <div class="doc-text">
+            <h3>Dr. Ethan Hartwell <i>(Gastroenterologist)</i></h3>
+            <p>A board-certified gastroenterologist with over 10 years of experience in treating digestive disorders, including Crohn's disease, ulcerative colitis and liver conditions.
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="doc-images">
+            <img src="./Images/doc 5.webp" alt="">
+        </div>
+        <div class="doc-text">
+            <h3>Dr. David Harper <i>(Pediatrician)</i></h3>
+            <p>A dedicated pediatrician, providing compassionate care to children from infancy through adolescence. Specializing in preventive medicene, growth and development, and childhood illnesses.
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="doc-images">
+            <img src="./Images./doc 6.webp" alt="">
+        </div>
+        <div class="doc-text">
+            <h3>Dr. Emily Lawson <br><i>(Orthopedic Surgeon)</i></h3>
+            <p>A skilled surgeon with eexperience in treating musculoskeleton conditions, including joint replacements, sports injuries and spine disorders.
+            </p>
+        </div>
+    </div>
+</section>
+
+    
+<!--footer-->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-row">
+            <div class="footer-column">
+                <img src="./footer logo.png" alt="logo">
+                <h3>About us</h3>
+                <p>Dedicated to providing a compassionate care that not only heals the body but also soothes the mind and spirit.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact us.html">Contact us</a></li>
+                        <li><a href="./doctors.html">Doctors</a></li>
+                        <li><a href="./reservation.html">Consultancy Reservation</a></li>
+                        <li><a href="./about us.html">About us</a></li>
+                        <li><a href="./pharmacy.html">Pharmacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact us</h3>
+                <p>Email: medcity@hospital.lk</p>
+                <p>Phone: 081 123 1123</p>
+            </div>
+            <div class="footer-column">
+                <h3>Follow us</h3>
+                <div class="social-icons">
+                    <i class="fi fi-brands-whatsapp"></i>
+                    <i class="fi fi-brands-instagram"></i>
+                    <i class="fi fi-brands-facebook"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Med City. All rights reserved</p>
+    </div>
+</footer>
+</body>
+</html>
+
+<!--source
+https://www.pexels.com/search/doctor%20teams/
+-->

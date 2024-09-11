@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med City</title>
+    <link rel="stylesheet" href="./reservation.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!--Flaticons link-->
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-straight/css/uicons-solid-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+    <!--navigation bar-->
+    <header>
+        <section>
+            <nav>
+                <input type="checkbox" id="sidebar-active">
+                <label for="sidebar-active" class="open-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                </label>
+                <label id="overlay" for="sidebar-active"></label>
+                <section class="links-container">
+                    <label for="sidebar-active" class="close-sidebar-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    </label>
+                <!--logo-->
+                <section class="logo">
+                    <a href="./index.html">
+                    <img src="./main logo.png" alt=""></a>
+                </section>
+                <ul class="ul">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./contact us.html">Contact us</a></li>
+                    <li><a href="./doctors.html">Doctors</a></li>
+                    <li><a href="./reservation.html" class="active">Consultancy Reservation</a></li>
+                    <li><a href="./about us.html">About us</a></li>
+                    <li><a href="./pharmacy.html">Pharmacy</a></li>
+                </ul>
+
+                <!--search bar-->
+                <div class="search-container">
+                    <form action="/search" method="GET">
+                        <input type="text" placeholder="Search" name="query" class="search-input">
+                        <button type="submit" class="search-btn">Search</button>
+                    </form>
+                </div>
+        </nav>
+        </section>
+    </header>
+
+    <!--main-->
+    <main>
+        <section class="appointments">
+            <div class="overlay"></div>
+                <div class="appointments-image">
+                <h1>Secure a doctor appointment</h1>
+            <div class="text">
+                <p>Call us or request an appointment to get started</p>
+                <h3>" Committed to caring, Driven by excellence "</h3>
+            </div>
+            </div>
+        </section>
+        </div>
+    </main>
+    
+    
+    <!--Reservation form-->
+    <form method="post">
+        <h2>Reserve a Doctor</h2>
+        <section class="reservation-form">
+        <fieldset>
+            <legend>Patient Information</legend>
+
+            <div class="info">
+            <label for="patient-name">Full Name:</label>
+            <input type="text" id="patient-name" name="patient-name" required>
+        </div>
+
+        <div class="info">
+            <label for="patient-age">Age:</label>
+            <input type="text" id="patient-age" name="patient-age" required>
+        </div>
+
+            <div class="info">
+            <label for="patient-gender">Gender:</label>
+            <select id="patient-gender" name="patient-gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+            <div class="info">
+            <label for="patient-contact">Contact Number:</label>
+            <input type="tel" id="patient-contact" name="patient-contact" required>
+        </div>
+
+            <div class="info">
+            <label for="patient-email">Email Address:</label>
+            <input type="email" id="patient-email" name="patient-email" required>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Appointment Details</legend>
+
+            <div class="info">
+            <label for="doctor-name" name>Choose a Doctor:</label>
+            <select id="doctor-name" name="doctor-name" required>
+                <option value="dr_jonathan">Dr. Jonathan Langston</option>
+                <option value="dr_amelia">Dr. Amelia Foster</option>
+                <option value="dr_isabella">Dr. Isabella Marlowe</option>
+                <option value="dr_ethan">Dr. Ethan Hartwell</option>
+                <option value="dr_david">Dr. David Harper</option>
+                <option value="dr_emily">Dr. Emily Lawson</option>
+            </select>
+        </div>
+
+            <div class="info">
+            <label for="appointment-date">Preferred Date:</label>
+            <input type="date" id="appointment-date" name="appointment-date" required>
+        </div>
+
+            <div class="info">
+            <label for="appointment-time">Preferred Time:</label>
+            <input type="appointment-time" id="appointment-time" name="appointment-time" required>
+        </div>
+
+            <div class="info">
+            <label for="consultation-type">Consultation Type:</label>
+            <select id="consultation-type" name="consultation-type" required>
+                <option value="in-person">In-Person</option>
+                <option value="virtual">Virtual</option>
+            </select>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+
+            <div class="info">
+            <label for="symptoms">Description of any symptoms:</label>
+            <textarea id="symptoms" name="symptoms" rows="4" required></textarea>
+        </div>
+
+            <div class="info">
+            <label for="special-requests">Special Requests:</label>
+            <textarea id="special-requests" name="special-requests" rows="2"></textarea>
+        </div>
+        </fieldset>
+
+        <div class="submit-button">
+            <button type="submit">Reserve Consultation</button>
+        </div>
+        </section>
+    </form>
+
+<!--Footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-column">
+                    <img src="./footer logo.png" alt="logo">
+                    <h3>About us</h3>
+                    <p>Dedicated to providing a compassionate care that not only heals the body but also soothes the mind and spirit.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./services.html">Services</a></li>
+                            <li><a href="./contact us.html">Contact us</a></li>
+                            <li><a href="./doctors.html">Doctors</a></li>
+                            <li><a href="./reservation.html">Consultancy Reservation</a></li>
+                            <li><a href="./about us.html">About us</a></li>
+                            <li><a href="./pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact us</h3>
+                    <p>Email: medcity@hospital.lk</p>
+                    <p>Phone: 081 123 1123</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow us</h3>
+                    <div class="social-icons">
+                        <i class="fi fi-brands-whatsapp"></i>
+                        <i class="fi fi-brands-instagram"></i>
+                        <i class="fi fi-brands-facebook"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Med City. All rights reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
+<!--source
+https://www.pexels.com/photo/woman-in-white-lab-coat-listening-to-a-girl-and-writing-down-notes-5998448/
+-->

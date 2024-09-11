@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med City</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./services.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--Flaticons link-->
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-straight/css/uicons-solid-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+
+     <!--navigation bar-->
+     <header>
+        <section>
+            <nav>
+                <input type="checkbox" id="sidebar-active">
+                <label for="sidebar-active" class="open-sidebar-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                </label>
+                <label id="overlay" for="sidebar-active"></label>
+                <section class="links-container">
+                    <label for="sidebar-active" class="close-sidebar-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                    </label>
+
+                <!--logo-->
+                <section class="logo">
+                    <a href="./index.html">
+                    <img src="./main logo.png" alt=""></a>
+                </section>
+                <ul class="ul">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./services.html" class="active">Services</a></li>
+                    <li><a href="./contact us.html">Contact us</a></li>
+                    <li><a href="./doctors.html">Doctors</a></li>
+                    <li><a href="./reservation.html">Consultancy Reservation</a></li>
+                    <li><a href="./about us.html">About us</a></li>
+                    <li><a href="./pharmacy.html">Pharmacy</a></li>
+                </ul>
+
+                <!--search bar-->
+                <div class="search-container">
+                    <form action="/search" method="GET">
+                        <input type="text" placeholder="Search" name="query" class="search-input">
+                        <button type="submit" class="search-btn">Search</button>
+                    </form>
+                </div>
+        </nav>
+        </section>
+    </header>
+
+    <main>
+    <!--main-->
+    <section class="main-container">
+        <div class="services-gallery">
+            <div class="img-box"><h3>Mother & Baby</h3></div>
+            <div class="img-box"><h3>Cancer Center</h3></div>
+            <div class="img-box"><h3>Heart Center</h3></div>
+            <div class="img-box"><h3>Radiology</h3></div>
+        </div>
+        <section class="main">
+                <div class="main-text">
+                    <h2>Our Services</h2>
+                    <h3>"Your Well-being,<br> Our Priority"</h3>
+                    <p>Ensuring the health and well-being of every patient through personalized treatment
+                        plans, state-of-art-technology, and a patient centered approach.
+                    </p>
+
+
+                    <!--link to patient registration form-->
+                    <div class="home-btn">
+                        <a href="./reservation.html">Book an Appointment</a>
+                    </div>
+                </div>
+    
+        </section>
+    </section>
+</main>
+<!--main section ends-->
+
+
+    <!--Why choose us?-->
+    <section class="services-container">
+        <div class="services-image">
+        <h2>Why choose us?</h2>
+        <img src="./Images./serv.webp" alt="">
+    </div>
+    
+    <section class="service-text">
+        <div class="service">
+            <i class="fi fi-br-care"></i>
+            <div class="text">
+                <h3>Specialized Health Care</h3>
+                <p> Our experienced doctors, nurses, and specialists are leaders in their fields, providing top-tier care with compassion and expertise.</p>
+            </div>
+        </div>
+        <div class="service">
+            <i class="fi fi-rr-bulb"></i>
+            <div class="text">
+                <h3>Automated Facilities</h3>
+                <p>We utilize the latest medical technology and equipment to ensure accurate 
+                    diagnoses and effective treatments
+                </p>
+            </div>
+        </div>
+        <div class="service">
+            <i class="fi fi-rr-plant-care"></i>
+            <div class="text">
+                <h3>Hollistic Treatment Approach</h3>
+                <p>We offer personalized care that respects your needs and preferances.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+<!--Our Services-->
+<section class="services-title">
+    <h1>Specialized Care Areas</h1>
+
+    <div class="services-row">
+        
+        <!--grid with images and information of services-->
+        <div class="text-column">
+            <h3>Mother and Baby Care</h3>
+            <p>Compassionate care for expectant mothers, new borns, and their families throughout their childbirth journey.</p>
+        </div>
+
+        <div class="services-column">
+            <img src="./Images/mother and baby.webp" alt="mother">
+        </div>
+
+        <div class="text-column">
+            <h3>Cancer Center</h3>
+            <p>Comprehensive approach to the diagnosis, treatment and support of cancer patients and their families</p>
+        </div>
+        
+        <div class="services-column">
+            <img src="./Images/cancer.webp" alt="cancer">
+        </div>
+
+       
+        <div class="services-column">
+            <img src="./Images/heart.webp" alt="heart">
+        </div>
+
+        <div class="text-column">
+            <h3>Heart Center</h3>
+            <p>Comprehensive care for patients with heart and vascular conditions.</p>
+        </div>
+
+        <div class="services-column">
+            <img src="./Images/radiology.webp" alt="radiology">
+        </div>
+
+        <div class="text-column">
+            <h3>Radiology and Imaging</h3>
+            <p>X-rays, Computed Tomography(CT scans), Magnetic Resonance Imaging(MRI)</p>
+        </div>
+
+        <div class="text-column">
+            <h3>Emergency Care</h3>
+            <p>Provide life saving care, equipped with advanced technology and staffed by highly trained professionals.
+            </p>
+        </div>
+        <div class="services-column">
+            <img src="./Images/14.webp" alt="emergency">
+        </div>
+
+        <div class="text-column">
+            <h3>Wellness and Preventive Care</h3>
+            <p>We offer a range of wellness programs designed to keep you healthy and active</p>
+        </div>
+
+        <div class="services-column">
+            <img src="./Images/wellness.webp" alt="wellness">
+        </div>
+    </div>
+</section>
+
+<!--Online services-->
+        <section class="online-services">
+            <div class="heading">
+                <h1>Get access to our online services</h1>
+            </div>
+
+                <div class="column2">
+                <div class="online-box">
+                    <i class="fi fi-sr-newspaper"></i>
+                    <h3>Download lab reports</h3>
+                    <p>Get access to your lab results</p>
+                </div>
+
+                <!--link to the consultancy reservation page-->
+                <div class="online-box">
+                    <a href="./reservation.html">
+                    <i class="fi fi-sr-notes-medical"></i>
+                    <h3>Online appointment scheduling</h3>
+                    <p>Make an appoinment before your visit</p></a>
+                </div>
+                <div class="online-box">
+                    <i class="fi fi-br-file-invoice-dollar"></i>
+                    <h3>Online billings and Payments</h3>
+                    <p>Make secure payments for your bills</p>
+                </div>
+                <div class="online-box">
+                    <i class="fi fi-sr-feedback"></i>
+                    <h3>Patient Feedback</h3>
+                    <p>Share your experience with us</p>
+                </div>
+
+                <!--linked to online pharmacy-->
+                <div class="online-box">
+                    <a href="./pharmacy.html">
+                    <i class="fi fi-sr-medicine"></i>
+                    <h3>Online Pharmacy</h3>
+                    <p>Order your medications to your doorstep</p></a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!--What customers say-->
+        <section class="feedback">
+            <hr>
+            <h2>What our patients say</h2>
+        <p>"The care I recieved at Med City was exceptional. From the moment i walked in 
+            I felt I was in good hands"
+            - Jane Doe
+        </p>
+        <p>"Thank you to the entire team for making my surgery as stress-free as possible. I couldn't have asked for better care." - John Smith
+        </p>
+        <hr>
+    </section>
+
+
+      <!--Footer-->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-column">
+                        <img src="./footer logo.png" alt="logo">
+                        <h3>About us</h3>
+                        <p>Dedicated to providing a compassionate care that not only heals the body but also soothes the mind and spirit.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                                <li><a href="./services.html">Services</a></li>
+                                <li><a href="./contact us.html">Contact us</a></li>
+                                <li><a href="./doctors.html">Doctors</a></li>
+                                <li><a href="./reservation.html">Consultancy Reservation</a></li>
+                                <li><a href="./about us.html">About us</a></li>
+                                <li><a href="./pharmacy.html">Pharmacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact us</h3>
+                        <p>Email: medcity@hospital.lk</p>
+                        <p>Phone: 081 123 1123</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow us</h3>
+                        <div class="social-icons">
+                            <i class="fi fi-brands-whatsapp"></i>
+                            <i class="fi fi-brands-instagram"></i>
+                            <i class="fi fi-brands-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Med City. All rights reserved</p>
+            </div>
+        </footer>
+</body>
+</html>
+
+<!--source
+
+-->

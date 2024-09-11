@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med City</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    
+<!--Flatiocns link-->
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-straight/css/uicons-solid-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+</head>
+<body>
+    <!--navigation bar-->
+    <header>
+            <section>
+                <nav>
+                    <input type="checkbox" id="sidebar-active">
+                    <label for="sidebar-active" class="open-sidebar-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    </label>
+                    <label id="overlay" for="sidebar-active"></label>
+                    <section class="links-container">
+                        <label for="sidebar-active" class="close-sidebar-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                        </label>
+
+                    <!--logo-->
+                    <section class="logo">
+                        <a href="./index.html">
+                        <img src="./main logo.png" alt=""></a>
+                    </section>
+                    <ul class="ul">
+                        <li><a href="./index.html" class="active">Home</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact us.html">Contact us</a></li>
+                        <li><a href="./doctors.html">Doctors</a></li>
+                        <li><a href="./reservation.html">Consultancy Reservation</a></li>
+                        <li><a href="./about us.html">About us</a></li>
+                        <li><a href="./pharmacy.html">Pharmacy</a></li>
+                    </ul>
+
+                    <!--search bar-->
+                    <div class="search-container">
+                        <form action="/search" method="GET">
+                            <input type="text" placeholder="Search" name="query" class="search-input">
+                            <button type="submit" class="search-btn">Search</button>
+                        </form>
+                    </div>
+            </nav>
+            </section>
+        </header>
+        <!--end of header section-->
+
+
+        <!--Beginning of the main section-->
+        <main>
+            <section class="container">
+                <section class="main-text">
+                    <h2>Welcome to Med city</h2>
+                    <h3>"A new perspective of care"</h3>
+                    <p>We are known to provide the best healthcare services in the world</p>
+                    <div class="home-btn">
+                        <a href="./reservation.html">Appointments</a>
+                    </div>
+                </section>
+
+                <div class="main-gallery">
+                    <div class="img-box"></div>
+                    <div class="img-box"></div>
+                    <div class="img-box"></div>
+                    <div class="img-box"></div>
+                </div>
+            </section>
+        </main>
+        <!--main section ends-->
+
+
+        <section class="facts">
+            <div class="row">
+                <div class="serv">
+                    <h1>Certified panel of doctors</h1>
+                    <p>Our hospital offers the best personalized appointments with skilled specialists for your health</p>
+                </div>
+                <div class="serv">
+                    <h1>24/7 emergency services</h1>
+                    <p>Immediate medical attention during emergencies</p>
+                </div>
+                <div class="serv">
+                    <h1>Qualified medical staff</h1>
+                    <p>A well experienced medical staff available to provide the best facilities to our valuable customers</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--About the hospital-->
+       <section class="about">
+        <h4>ABOUT US</h4>
+            <h2>Why choose Med City?</h2>
+
+            <!--Brief introduction about the hospital-->
+            <section class="text">
+            <p>Our hospital boastes cutting-edge technology, providing top-notch medical treatments while maintaining a serene and calming environment.<br>
+                Each room is crafted to offer comfort and privacy, ensuring patients to feel like home .<br>
+                Our dedicated team of world-class physicians, nurses and staff are committed to delivering personalized care, treating each patient with utmost respect and care. </p>
+                <img src="./Images/10.webp" alt="">
+                </section>
+            </section>
+
+            <!--Services-->
+            <section class="services">
+                    <h3>OUR SERVICES</h3>
+                    <p>Med City offers a wide range of services to meet the healthcare needs of patients.</p>
+                   
+                    <section class="services-container">
+                            <div class="services-image">
+                                <img src="./Images/services.webp" alt="services">
+                            </div>
+
+                            <!--unordered list containing the services rendered-->
+                            <div class="services-title">
+                        <div class="services-text">
+                            <ul>
+                                <li>Cancer Care and Surgery</li>
+                                <li>Chemotherapy</li>
+                                <li>Dengue Patient Management</li>
+                                <li>Eye Care</li>
+                                <li>EMG, EEG</li>
+                            </ul>
+                            <ul>
+                                <li>General Surgery</li>
+                                <li>Home Nursing</li>
+                                <li>Mother & Baby Care</li>
+                                <li>Paediatric Care</li>
+                                <li>Respiratory Disease Care</li>
+                            </ul>
+                        </div>
+                        <div class="more-btn">
+                            <a href="./services.html">Learn More</a>
+                        </div>
+                    </div>
+                        
+                    </section>                
+            </section>
+
+<!--Facilities-->
+<section class="care">
+    <div class="heading">
+        <h4>OUR FACILITIES</h4>
+    </div>
+
+    <div class="care-container">
+        <div class="box">
+            <i class="fi fi-sr-ambulance"></i>
+            <h3>Emergency Services</h3>
+            <p>Provides immediate care for acute illnesses and injuries</p>
+        </div>
+
+        <div class="box">
+            <i class="fi fi-rr-pulse"></i>
+            <h3>Inpatient Services</h3>
+            <p>Includes medical/surgical units, Intensive Care Units and Maternity Care</p>
+        </div>
+
+        <div class="box">
+            <i class="fi fi-sr-doctor"></i>
+            <h3>Outpatient Services</h3>
+            <p>Patients recieve medical consultations, treatments and minor procedures without being admitted to the hospital</p>
+        </div>
+
+        <div class="box">
+            <i class="fi fi-sr-x-ray"></i>
+            <h3>Diagnostic Services</h3>
+            <p>Imaging services such as X-rays, Ct scans, MRI, Ultrasound and Mammography</p>
+        </div>
+
+        <div class="box">
+            <i class="fi fi-sr-scalpel-path"></i>
+            <h3>Surgical Services</h3>
+            <p>Operating Rooms equipped to perform surgical procedures</p>
+        </div>
+
+        <div class="box">
+            <i class="fi fi-ss-hand-holding-medical"></i>
+            <h3>Support Services</h3>
+            <p>Includes pharmacies with pharmacists for consultation, social services such as counseling</p>
+        </div>
+    </div>
+</section>
+
+<!--Team-->
+<section class="team">
+    <h2>A team of Experts</h2>
+
+    <div class="team-text">
+        <p>We at Med City, are honored to work with a group of physicians that are leaders in their disciplines
+            and who are committed and higly skilled. Our experts are available to help you at every stage, whether you need surgical 
+            skills, specialized therapy , or preventive care.
+        </p>
+        <p>Each doctor on our team is dedicated to providing patient-centered treatment that prioritizes safety, 
+            quality and compassion.
+        </p>
+    </div>
+</section>
+
+    <section class="team-image">
+        <img src="./Images/doctors 3.webp" alt="">
+
+        <!--Stats section-->
+        <div class="stats-section">
+            <div class="stat-box">
+                <h2>800+</h2>
+                <p>Consultants</p>
+            </div>
+            <div class="stat-box">
+                <h2>3500+</h2>
+                <p>Consultations per day</p>
+            </div>
+            <div class="stat-box">
+                <h2>3250+</h2>
+                <p>Tests Offered</p>
+            </div>
+            <div class="stat-box">
+                <h2>10000+</h2>
+                <p>Tests per day</p>
+            </div>
+        </div>
+    </section>
+
+
+<!--contact details-->
+<section class="contact-container">
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+        <ul>
+            <li><i class="fi fi-ss-marker"></i>123, Peradeniya Road, Kandy</li>
+            <li><i class="fi fi-br-at"></i>medcity@hospital.lk</li>
+            <li><i class="fi fi-sr-phone-call"></i>081 123 1123</li>
+        </ul>
+    </div>
+
+    <!--Contact Form-->
+    <div class="contact-form">
+        <h2>Book A visit</h2>
+        <form action="#" method="POST">
+            <section>
+                <label for="Doctor">Doctors name</label>
+                <input type="text" name="Doctor" maxlength="20">
+            </section>
+            <br>
+            <section>
+                <label for="location">Location</label>
+                <input list="locations" id="location" name="location">
+                <datalist id="locations">
+                    <option value="Kandy">Med city - Kandy</option>
+                    <option value="Colombo">Med city - Colombo</option>
+                    <option value="Galle">Med city - Galle</option>
+                </datalist>
+            </section>
+            <br>
+            <section>
+                <label for="specialization">Any specializations</label>
+                <input list="specializations" id="specialization" name="specialization">
+                <datalist id="specializations">
+                    <option value="Cancer">Cancer surgeon</option>
+                    <option value="Allergy">Allergy Specialist</option>
+                    <option value="Ambulance">Ambulance Facility</option>
+                    <option value="Dental">Dental surgeon</option>
+                    <option value="Ayurvedic">Ayurvedic physician</option>
+                </datalist>
+            </section>
+            <br>
+            <section>
+                <label for="date">Any date</label>
+                <input type="date" name="date" value="date">
+                <br><br>
+                <button type="button">Confirm Appointment</button>
+            </section>
+        </form>
+    </div>
+
+    <!--image of location-->
+    <section class="contact-image">
+        <img src="./Images/map.png" alt="">
+    </section>
+</section>
+
+
+    <!--FAQs-->
+    <section class="faq-container">
+
+        <!--ordered list containing FAQs-->
+        <div class="faq">
+            <h2>Frequently Asked Questions(FAQ's)</h2>
+            <ol>
+                <div class="faq-info">
+                <li>What are your hospital's visiting hours?</li>
+                <p>Visiting hours are from 7.00 AM to 11.00 PM every day. Special arrangements can be made for the critical care patients with permission from the nursing staff</p>
+                </div>
+
+                <div class="faq-info">
+                <li>How can i book an appointment with a doctor?</li>
+                <p>You can book an appointment through our website's online booking system,
+                by calling our appointment desk or by visiting the hospital's reception.</p>
+                </div>
+
+                <div class="faq-info">
+                <li>What are the emergency room services available?</li>
+                <p>Our emergency department operates 24/7 and is fully equipped to handle trauma, critical care, and urgent medical conditions. No appointment is needed for emergency care.</p>
+                </div>
+
+                <div class="faq-info">
+                <li>How can I obtain my medical records?</li>
+                <p>You can request your medical records through our hospital's online system by providing your ID card number.</p>
+                </div>
+            </ol>
+        </div>
+    </section>
+
+<!--footer section-->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-row">
+            <div class="footer-column">
+                <img src="./footer logo.png" alt="logo">
+                <h3>About us</h3>
+                <p>Dedicated to providing a compassionate care that not only heals the body but also soothes the mind and spirit.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact us.html">Contact us</a></li>
+                        <li><a href="./doctors.html">Doctors</a></li>
+                        <li><a href="./reservation.html">Consultancy Reservation</a></li>
+                        <li><a href="./about us.html">About us</a></li>
+                        <li><a href="./pharmacy.html">Pharmacy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact us</h3>
+                <p>Email: medcity@hospital.lk</p>
+                <p>Phone: 081 123 1123</p>
+            </div>
+            <div class="footer-column">
+                <h3>Follow us</h3>
+                <div class="social-icons">
+                    <i class="fi fi-brands-whatsapp"></i>
+                    <i class="fi fi-brands-instagram"></i>
+                    <i class="fi fi-brands-facebook"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Med City. All rights reserved</p>
+    </div>
+</footer>
+
+</body>
+</html>
+
+<!--source
+https://unsplash.com/photos/two-men-wearing-blue-lab-coats-tMFeatBSS4s
+https://www.youtube.com/watch?v=8eFeIFKAKHw
+https://webcode.tools/css-generator/keyframe-animation
+
+-->

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med City</title>
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#ffffff">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!--Flatiocns link-->
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-straight/css/uicons-solid-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-brands/css/uicons-brands.css'>
+</head>
+<body>
+    <!--navigation bar-->
+    <header>
+            <section>
+                <nav>
+                    <input type="checkbox" id="sidebar-active">
+                    <label for="sidebar-active" class="open-sidebar-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    </label>
+                    <label id="overlay" for="sidebar-active"></label>
+                    <section class="links-container">
+                        <label for="sidebar-active" class="close-sidebar-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                        </label>
+                    <!--logo-->
+                    <section class="logo">
+                        <a href="./index.html">
+                        <img src="./main logo.png" alt=""></a>
+                    </section>
+                    <ul class="ul">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./services.html">Services</a></li>
+                        <li><a href="./contact us.html">Contact us</a></li>
+                        <li><a href="./doctors.html">Doctors</a></li>
+                        <li><a href="./reservation.html">Consultancy Reservation</a></li>
+                        <li><a href="./about us.html" class="active">About us</a></li>
+                        <li><a href="./pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                    <div class="search-container"></div>
+                        <form action="/search" method="GET">
+                            <input type="text" placeholder="Search" name="query" class="search-input">
+                            <button type="submit" class="search-btn">Search</button>
+                        </form>
+                    </div>
+            </nav>
+            </section>
+        </header>
+        
+        
+        <main>
+        <!--About us-->
+        <section class="about-us">
+                <div class="about-image">
+                    <div class="image-box"></div>
+                    <div class="image-box"></div>
+                    <div class="image-box"></div>
+                </div>
+
+                <div class="about-text">
+                    <h2>ABOUT US</h2>
+                    <h3>Welcome to Med City, where compassionate care meets medical excellence.
+                        Since 2004, we have been committed to delivering world-class healthcare services to our
+                        community.
+                    </h3>
+                </div>
+        </section>
+    </main>
+
+<!--about text-->
+<section class="text-container">
+    <div class="text-box">
+        <h2>Vision</h2>
+        <p>" Through compassionate care, innovation, and excellence, we want to be a leader in providing
+            outstanding healthcare, expanding medical knowledge, and changing lives.  By promoting a patient-centric 
+            atmosphere, utilizing the most recent advancements in research and technology, and enabling communities
+             to attain improved health outcomes, we hope to become the benchmark for medical services. " 
+        </p>
+    </div>
+
+    <div class="text-box">
+        <h2>Mission</h2>
+        <p>" Our goal is to offer everyone complete, first-rate healthcare services with an 
+            emphasis on respect, safety, and compassion. Our mission is to provide individualized, 
+            easily accessible care in order to promote wellness, avoid sickness, and restore health. 
+            We work to promote the health of our patients and the community by collaborating with 
+            healthcare experts, providing education, and engaging in continuous improvement. "</p>
+    </div>
+</section>
+
+
+<!--Locations-->
+<div class="location">
+    <h2>Our Locations</h2>
+</div>
+<div class="locations-container">
+    <div class="locations-card">
+            <img src="./Images/hospital1.webp" alt="Med City - Kandy">
+        <div class="location-info">
+            <h3>Med City - Kandy(Main)</h3>
+            <p>123, Peradeniya Road, Kandy</p>
+            <p>Contact: 081-2235623</p>
+            <img src="./Images/map.png" alt="kandy">
+        </div>
+    </div>
+
+    <div class="locations-card">
+            <img src="./Images/hospital 2.webp" alt="Med City - Colombo">
+        <div class="location-info">
+            <h3>Med City - Colombo</h3>
+            <p>No.178, Hill Street, Dehiwala</p>
+            <p>Contact: 011-2235623</p>
+            <img src="./Images/map-colombo.png" alt="colombo">
+        </div>
+    </div>
+
+    <div class="locations-card">
+            <img src="./Images/hospital 4.jpeg" alt="Med City - Galle">
+        <div class="location-info">
+            <h3>Med City - Galle</h3>
+            <p>428, Health Street, Galle</p>
+            <p>Contact: 091-2333455</p>
+            <img src="./Images/map-galle.png" alt="galle">
+            
+        </div>
+    </div>
+</div>
+
+        <!--Branches-->
+
+        <!--table containing information about the branches-->
+        <section class="table">
+            
+        <table class="locations-table">
+            <thead>
+                <tr>
+                    <th>Location</th>
+                    <th>Address</th>
+                    <th>Contact Number</th>
+                    <th>Operating Hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Med City-Kandy(Main)</td>
+                    <td>123, Peradeniya Road, Kandy</td>
+                    <td>081-2235623</td>
+                    <td>Mon-Sun: 7am - 11pm</td>
+                </tr>
+                <tr>
+                    <td>Med City-Colombo</td>
+                    <td>No.178, Hill Street, Dehiwala</td>
+                    <td>011-2235623</td>
+                    <td>Mon-Sun: 7am - 11pm</td>
+                </tr>
+                <tr>
+                    <td>Med City-Galle</td>
+                    <td>428, Health Street, Galle</td>
+                    <td>091-2333455</td>
+                    <td>Mon-Sun: 7am - 11pm</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="4">Operating hours dont apply for emergency services.</td>
+            </tfoot>
+        </table>
+    </section>
+
+        <!--footer-->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-row">
+                    <div class="footer-column">
+                        <img src="./footer logo.png" alt="logo">
+                        <h3>About us</h3>
+                        <p>Dedicated to providing a compassionate care that not only heals the body but also soothes the mind and spirit.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./services.html">Services</a></li>
+                                <li><a href="./contact us.html">Contact us</a></li>
+                                <li><a href="./doctors.html">Doctors</a></li>
+                                <li><a href="./reservation.html">Consultancy Reservation</a></li>
+                                <li><a href="./about us.html">About us</a></li>
+                                <li><a href="./pharmacy.html">Pharmacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact us</h3>
+                        <p>Email: medcity@hospital.lk</p>
+                        <p>Phone: 081 123 1123</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Follow us</h3>
+                        <div class="social-icons">
+                            <i class="fi fi-brands-whatsapp"></i>
+                            <i class="fi fi-brands-instagram"></i>
+                            <i class="fi fi-brands-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Med City. All rights reserved</p>
+            </div>
+        </footer>
+        <!--source
+        -->
+        </body>
+        </html>
