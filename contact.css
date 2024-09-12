@@ -186,6 +186,7 @@ nav svg{
     background: url(./Images/building.jpeg) no-repeat center center/cover;
     height: 70vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -209,14 +210,60 @@ nav svg{
     color: var(--primary-color);
     font-weight: 600;
     font-size: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
     letter-spacing: 2px;
+    animation: contact 2s ease 1 normal forwards;
 }
 .contact-image p{
     color: white;
     font-size: 1.2rem;
     margin-bottom: 2rem;
     font-weight: 500;
+}
+
+.info-panel {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    width: 70%;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: contact 2s ease 1 normal forwards;
+}
+
+/*animation for contact text*/
+@keyframes contact {
+	0% {
+		opacity: 0;
+		transform: translateY(-150px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.info-card {
+    text-align: center;
+    width: 100%;
+}
+.info-card i{
+    font-size: 3vw;
+    color: white;
+}
+.info-card h3 {
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 5px;
+}
+.info-card p {
+    font-size: 1.5vw;
+    color: white;
 }
 
 /*contact us form*/
@@ -242,6 +289,7 @@ form h2{
     padding: 30px;
     border-radius: 10px;
     margin: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
 .input-box{
     margin-bottom: 20px;
@@ -385,4 +433,16 @@ form h2{
     flex: 1 1 100%;
     margin-bottom: 30px;
 }
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    .info-card h3,p{
+        font-size: 2vw;
+    }
+}
+    
+@media (max-width: 767px){
+    .info-card h3,p{
+        font-size: 2vw;
+    }
 }
